@@ -1,0 +1,124 @@
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    margin:20px;
+    
+   
+}
+*{
+    box-sizing: border-box;
+    
+    
+}
+h1{
+    
+    text-align: center;
+}
+label{  
+    text-align: center;
+    width:100px;
+    height: 30px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    float: right;
+    padding:0px;
+    margin-top: 0px;
+    font-size: 20px;
+
+}
+#l1{
+    background-color:#D59898;
+    font-weight: bold;
+    
+    
+}
+#l2{
+    background-color:#C14543;
+    font-weight: bold;
+    color: white;
+    
+}
+#l3{
+    background-color:#E5D198;
+    font-weight: bold;
+    
+    
+}
+          
+section {
+    background-color: grey;
+    border:3px  solid black;
+    width:100%;
+    margin: 10px;
+    padding-left:10px;
+    padding-bottom: 10px;
+    
+    
+}
+#container{
+    width:100%;
+    text-align: center;
+}
+
+.c1{
+    float:left;
+    width:28%;
+}
+.c2{
+    display: inline-block;
+    width: 28%;
+}
+.c3{
+    float:right;
+    width: 28%;
+}
+#para{
+    position: relative;
+    clear:both;
+    text-align: left;
+    padding:10px;
+}
+@media(min-width:992px)
+{
+  
+  .c1 {
+    width:28%;
+  }
+  .c2 {
+    width:28%;
+  }
+  .c3 {
+    width:28%;
+  }
+}
+
+@media(min-width:768px) and (max-width:991px)
+{
+  
+  .c1{
+    width:47%;
+    float: left;
+  }
+  .c2{
+    width:47%;
+    float: right;
+  }
+  .c3{
+      width:98%;
+  }
+}
+@media(max-width:767px)
+{
+  
+  .c1 {
+    width:97%;
+  }
+  .c2 {
+    width:97%;
+  }
+  .c3 {
+    width:97%;
+  }
+
+}
